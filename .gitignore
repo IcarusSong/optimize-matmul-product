@@ -1,0 +1,54 @@
+# 二进制和可执行文件
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.o
+*.obj
+*.ko
+*.bin
+*.hex
+*.pyc
+*.pyd
+*.class
+
+# 编译和构建目录
+/build/
+/bin/
+/obj/
+/.vscode/
+/.idea/
+*.suo
+*.user
+*.sln
+*.vcxproj*
+*.xcodeproj
+*.xcworkspace
+
+# 调试文件
+*.dSYM/
+*.pdb
+*.idb
+*.ilk
+*.db
+
+# 日志和临时文件
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 依赖目录
+/node_modules/
+/.venv/
+/venv/
+/__pycache__/
+*.egg-info/
+/dist/
