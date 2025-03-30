@@ -1,54 +1,18 @@
-# 二进制和可执行文件
-*.exe
-*.out
-*.app
-*.so
-*.dylib
-*.dll
-*.a
-*.lib
-*.o
-*.obj
-*.ko
-*.bin
-*.hex
-*.pyc
-*.pyd
-*.class
-
-# 编译和构建目录
+# ========== 构建目录 ==========
 /build/
 /bin/
 /obj/
-/.vscode/
-/.idea/
-*.suo
-*.user
-*.sln
-*.vcxproj*
-*.xcodeproj
-*.xcworkspace
+/dist/
+/.cache/
+/debug/
 
-# 调试文件
-*.dSYM/
-*.pdb
-*.idb
-*.ilk
-*.db
-
-# 日志和临时文件
-*.log
-*.tmp
+# ========== 临时文件 ==========
+*~
 *.swp
 *.swo
-*~
-.DS_Store
-Thumbs.db
+*.tmp
+.fuse_hidden*  # FUSE 相关临时文件
 
-# 依赖目录
-/node_modules/
-/.venv/
-/venv/
-/__pycache__/
-*.egg-info/
-/dist/
+# ========== 其他 ==========
+.depend    # 依赖文件
+.autotools # autoconf/automake 生成的文件
